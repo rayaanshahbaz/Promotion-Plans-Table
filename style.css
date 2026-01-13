@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2b2f38;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.pricing-section h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.pricing-table th,
+.pricing-table td {
+
+    border: 1px solid #3a3f4b;
+    padding: 15px;
+}
+
+.pricing-table {
+    font-size: 19px;
+    letter-spacing: 1.3px;
+    word-spacing: 2px;
+    width: 100%;
+    border-collapse: collapse;
+    background: #1f232b;
+}
+
+.compare {
+    background: #fff;
+    color: #000;
+    text-align: left;
+}
+
+.starter {
+    background:#f39c12;
+}
+
+.advance {
+    background:#c0392b;
+}
+
+.enterprise {
+    background: #1abc9c;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #f1c40f;
+}
+
+.red {
+    color: #c0392b;
+}
+
+.blue {
+    color: #1abc9c;
+}
+
+.tick-1 {
+    color: #f1c40f;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tick-2 {
+    color: #f1c40f;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button {
+    background: #c0392b;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: #922b21;
+}
+
